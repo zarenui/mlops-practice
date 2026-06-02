@@ -1,0 +1,32 @@
+artifact_path: file:C:/Users/konro/mlops-practice/mlruns/1/models/m-e8f98fece73544b2b4e7335a42e3e433/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.13.0
+model_id: m-e8f98fece73544b2b4e7335a42e3e433
+model_size_bytes: 12675
+model_uuid: m-e8f98fece73544b2b4e7335a42e3e433
+prompts: null
+run_id: 6ddfd26b9e264e718fdcb296205b70b6
+signature:
+  inputs: '[{"type": "double", "name": "sepal length (cm)", "required": true}, {"type":
+    "double", "name": "sepal width (cm)", "required": true}, {"type": "double", "name":
+    "petal length (cm)", "required": true}, {"type": "double", "name": "petal width
+    (cm)", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-02 19:41:47.577736'
