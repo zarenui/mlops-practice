@@ -4,3 +4,4 @@ joblib
 pre-commit
 ruff
 pandas
+mlflow
